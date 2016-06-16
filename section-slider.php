@@ -3,14 +3,21 @@
 <div id="main" class="page-layout" data-page="Home">
 
 <section class="section-slideshow slideshow screen-height">
+
+    <div class="select-lang">
+        <ul>
+            <li class="active">EN</li>
+            <li>FR</li>
+        </ul>
+    </div>
     
-    <div class="logo_slider"></div>
+    <div class="logo_slider">
+        <div class="logo_img"></div>
+        <div class="logo_txt">go beyond ideas</div>
+    </div>
 
     <div class="mh mhl mh1"><span class="scrollto shuffle" data-target="concept">Concept</span></div>
-    <div class="mh mhl mh2">
-        <span class="scrollto shuffle" data-target="innovation">Innovation</span>
-        <span class="scrollto shuffle" data-target="innovation">& conseil</span>
-    </div>
+    <div class="mh mhl mh2"><span class="scrollto shuffle" data-target="innovation">Innovation<br>& conseil</span></div>
     <div class="mh mhl mh3"><span class="scrollto shuffle" data-target="metho">Méthodologie</span></div>
     <div class="mh mhr mh4"><span class="scrollto shuffle" data-target="offre">L'offre</span></div>
     <div class="mh mhr mh5"><span class="scrollto shuffle" data-target="equipe">L'équipe</span></div>
@@ -55,7 +62,7 @@
             
         </div>
         <div class="pages">
-            <div class="page"><span class="icon">1</span></div>
+            <div class="page is-active"><span class="icon">1</span></div>
             <div class="page"><span class="icon">2</span></div>
         </div>
     </div>

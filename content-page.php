@@ -10,9 +10,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisimodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisimodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
                 <div class="action">
-                    <a href="#" class="btn" data-text="En savoir plus" title="">
-                        <span>En savoir plus</span>
-                    </a>
+                    <a href="#" class="btn" data-text="En savoir plus" title="">En savoir plus</a>
                 </div>
             </div>
         </div>

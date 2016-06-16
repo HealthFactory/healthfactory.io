@@ -14,9 +14,7 @@
             <div class="content">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
                 <div class="action">
-                    <a href="#" class="btn" data-text="En savoir plus" title="">
-                        <span>En savoir plus</span>
-                    </a>
+                    <a href="#" class="btn" data-text="En savoir plus" title="">En savoir plus</a>
                 </div>
             </div>
             </div>
