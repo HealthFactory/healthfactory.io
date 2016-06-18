@@ -8,7 +8,7 @@
             <nav class="nav-header">
                 <ul>
                     <li><span class="scrollto" data-target="concept" title="">Concept</span></li>
-                    <li><span class="scrollto" data-target="innovation" title="">Innovation & Conseil</span></li>
+                    <li><span class="scrollto" data-target="innovation" title="">Innovation & Expertise</span></li>
                     <li><span class="scrollto" data-target="metho" title="">Méthodologie</span></li>
                     <li><span class="scrollto" data-target="offre" title="">L'offre</span></li>
                     <li><span class="scrollto" data-target="equipe" title="">L'équipe</span></li>

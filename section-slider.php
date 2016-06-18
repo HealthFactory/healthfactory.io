@@ -10,7 +10,7 @@
             <li>FR</li>
         </ul>
     </div>
-    
+
     <div class="logo_slider">
         <div class="logo_img"></div>
         <div class="logo_txt">go beyond ideas</div>
@@ -37,9 +37,9 @@
                 <div class="slide-content">
                     <div class="center-v-c">
                         <div class="center-v animate-txt">
-                            <div class="title">NOUS INNOVONS<br>DANS LA SANTE</div>
+                            <div class="title">L'EXPERTISE DE L'INNOVATION<br>DANS LA SANTE</div>
                             <div class="text">
-                                <p>Nous offrons les ressources et l’expertise dans la santé pour innover</p>
+                                <p>Une démarche focalisé sur l'adéquation produit marché basé sur l'expérimentation sur le terrain</p>
                             </div>
                         </div>
                     </div>
@@ -50,16 +50,16 @@
                 <div class="slide-content">
                     <div class="center-v-c">
                         <div class="center-v animate-txt">
-                            <div class="title">NOUS INNOVONS<br>DANS LA SANTE</div>
+                            <div class="title">L'EXPERTISE DE L'INNOVATION<br>DANS LA SANTE</div>
                             <div class="text">
-                                <p>Nous offrons les ressources et l’expertise dans la santé pour innover</p>
+                                <p>Un processus d'innovation complet pour identifier les nouveaux modèles économiques</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="image-container screen-height"> <img src="img/slider_2.jpg" data-src="img/slider_1.jpg" alt="" width="1920" height="1080" class="image queue-loading as-background" style="display: none;"></div>
             </div>
-            
+
         </div>
         <div class="pages">
             <div class="page is-active"><span class="icon">1</span></div>

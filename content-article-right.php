@@ -8,10 +8,10 @@
         <div class="box_content animate-v-c">
             <div class="titre animate-v">
                 <h2>Concept</h2>
-                <h3>LUXEO TALUM PO TELURA MINML</h3>
+                <h3>UN PROTOTYPE EN UNE SEMAINE</h3>
             </div>
             <div class="content animate-v">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisimodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+                <p>Un processus d'innovation qui vous apporte toutes les ressources et l'expertise nécessaire pour expérimenter vos idées, concevoir des prototypes et trouver un modèle économique en santé</p>
                 <div class="action">
                     <a href="#" class="btn" data-text="En savoir plus" title="">En savoir plus</a>
                 </div>

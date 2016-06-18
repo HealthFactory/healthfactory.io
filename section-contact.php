@@ -1,7 +1,7 @@
 <?php global $define_page; ?>
 
 <section id="contact_map" class="section">
-    
+
     <?php if ($define_page['class'] == 'home') { ?>
     <div class="center_page">
         <div class="titre">
@@ -17,13 +17,13 @@
 
         var map;
         //var bounds = new google.maps.LatLngBounds();
-        
+
         var markers = [
             ['Strasbourg', 48.57340529999999,7.752111300000024],
             ['Montréal', 45.5016889,-73.56725599999999],
             ['New-York', 40.7127837,-74.00594130000002]
         ];
-        
+
         //map.fitBounds(bounds);
 
         var map = document.getElementById('map');
@@ -42,7 +42,7 @@
             scrollwheel: false,
             disableDoubleClickZoom: true
         });
-            
+
         for( i = 0; i < markers.length; i++ ) {
             var position = new google.maps.LatLng(markers[i][1], markers[i][2]);
             //bounds.extend(position);
@@ -73,18 +73,18 @@
     <div class="center_page">
         <div class="titre">
             <h2>Contact</h2>
-            <h3>Sera Aerial Seneo</h3>
+            <h3></h3>
         </div>
         <div class="content">
             <div class="col_2">
                 <h4 class="contact">Où sommes-nous ?</h4>
-                <address>16 rue des Fleurs <br>67000 Strasbourg</address>
-                <p class="telephone">+33 398 485 96</p>
-                <p class="email">contact@healthfactory.io</p>
+                <address>23 bd de la marne<br>67000 Strasbourg</address>
+                <p class="telephone">+33 624 720 496</p>
+                <p class="email">hello@healthfactory.io</p>
                 <ul class="social">
-                    <li><a href="#" class="fb">Facebook</a></li>
-                    <li><a href="#" class="tw">Twitter</a></li>
-                    <li><a href="#" class="ig">Instagram</a></li>
+                    <li><a href="https://www.facebook.com/HealthFactoryIO/" class="fb" target="_blank">Facebook</a></li>
+                    <li><a href="http://twitter.com/_healthfactory" class="tw" target="_blank">Twitter</a></li>
+                    <li><a href="https://www.youtube.com/channel/UC3cp1CMc4tzNMuBaLvJOitw" class="yt" target="_blank">YouTube</a></li>
                 </ul>
                 <div class="clearfix"></div>
             </div>

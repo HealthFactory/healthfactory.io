@@ -4,8 +4,8 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1em;
-    -webkit-backface-visibility: hidden; 
-    -moz-backface-visibility: hidden; 
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
     -webkit-font-smoothing: antialiased;
 }
@@ -340,7 +340,7 @@ header .select-lang ul li.active {border-color:#444444;}
     padding: 0px 20px;
 }
 .btn:hover {
-    background-color:#50a78b; 
+    background-color:#50a78b;
     border-color: #50a78b;
     color:#FFF;
 }
@@ -569,7 +569,7 @@ header .select-lang ul li.active {border-color:#444444;}
     margin-left:33%;
 }
 
-/* INNOVATION */ 
+/* INNOVATION */
 
 #innovation .visuel {
     height:100px;
@@ -1321,7 +1321,7 @@ list-style: none;
 
 .social li a.fb {background-position: 0px 0px;}
 .social li a.tw {background-position: -35px 0px;}
-.social li a.ig {background-position: -105px 0px;}
+.social li a.yt {background-position: -105px 0px;}
 
 .form_wrap input {
     border:2px solid #6b7177;
@@ -1359,17 +1359,17 @@ list-style: none;
 ::-webkit-input-placeholder {
 color: #6b7177 !important;
 }
- 
+
 :-moz-placeholder { /* Firefox 18- */
-color: #6b7177 !important;  
+color: #6b7177 !important;
 }
- 
+
 ::-moz-placeholder {  /* Firefox 19+ */
-color: #6b7177 !important;  
+color: #6b7177 !important;
 }
- 
-:-ms-input-placeholder {  
-color: #6b7177 !important;  
+
+:-ms-input-placeholder {
+color: #6b7177 !important;
 }
 
 .form_wrap .btn {

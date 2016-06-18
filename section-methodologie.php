@@ -4,7 +4,7 @@
     <div class="center_page">
         <div class="titre">
             <h2>Méthodologie</h2>
-            <h3>MAOI MINOA FOLUJ</h3>
+            <h3>PROCESSUS D'INNOVATION</h3>
         </div>
         <div class="content">
 
@@ -34,24 +34,24 @@
                 </div>
 
                 <div class="animate-h metho_under">
-                    <h5>Repeat until provent</h5>
+                    <h5>Répétition jusqu'à la preuve</h5>
                 </div>
-                
+
                 <div class="animate-h arrow"></div>
 
                 <div class="animate-h metho_puce metho_puce_3">
                     <div class="visuel visuel_text">
-                        <h5>Product /<br>Market fit</h5>
+                        <h5>Adéquation produit /<br>marché</h5>
                     </div>
                 </div>
-                
+
                 <div class="animate-h arrow"></div>
 
                 <div class="animate-h metho_puce metho_puce_4">
                     <div class="visuel visuel_picto visuel_crea"></div>
                     <h5>Création</h5>
                 </div>
-                
+
                 <div class="animate-h arrow"></div>
 
                 <div class="animate-h metho_puce metho_puce_5">
@@ -60,7 +60,7 @@
                 </div>
 
                 <div class="clearfix"></div>
-               
+
             </div>
             <div class="clearfix"></div>
         </div>
