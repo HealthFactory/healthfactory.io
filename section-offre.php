@@ -2,7 +2,7 @@
     <div class="center_page">
         <div class="titre">
             <h2>L'offre</h2>
-            <h3>Sera Aerial Seneo</h3>
+            <h3>Une offre de service animé par des évènements</h3>
         </div>
         <div class="content content_scroll">
 
