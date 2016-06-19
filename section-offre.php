@@ -47,7 +47,7 @@
 		        	<div class="box_offre">Tests</div>
 		        </div>
 		        <div class="box_offre_c">
-		        	<div class="box_offre big">Validation</div>
+		        	<div class="box_offre">Validation</div>
 		        </div>
 		        <div class="box_offre_c">
 		        	<div class="box_offre">Commercialisation</div>

@@ -37,9 +37,9 @@
                 <div class="slide-content">
                     <div class="center-v-c">
                         <div class="center-v animate-txt">
-                            <div class="title">L'EXPERTISE DE L'INNOVATION<br>DANS LA SANTE</div>
+                            <div class="title">INNOVONS EN SANTÉ</div>
                             <div class="text">
-                                <p>Une démarche focalisé sur l'adéquation produit marché basé sur l'expérimentation sur le terrain</p>
+                                <p>La santé est le domaine qui peut bénéficier le plus des nouvelles technologies pour le bien de l'humanité. Healh Factory est l'acteur qui vous offre l'opportunité d'en tirer parti au mieux.</p>
                             </div>
                         </div>
                     </div>
@@ -50,9 +50,9 @@
                 <div class="slide-content">
                     <div class="center-v-c">
                         <div class="center-v animate-txt">
-                            <div class="title">L'EXPERTISE DE L'INNOVATION<br>DANS LA SANTE</div>
+                            <div class="title">REINVENTONS LA SANTÉ</div>
                             <div class="text">
-                                <p>Un processus d'innovation complet pour identifier les nouveaux modèles économiques</p>
+                                <p>Un processus d'innovation complet pour identifier les technologies, les hommes et les nouveaux modèles économiques pour l'amélioration de la médecine et la prise en charge des patients.</p>
                             </div>
                         </div>
                     </div>
