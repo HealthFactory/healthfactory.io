@@ -11,7 +11,7 @@
 			<div id="trigger1"></div>
 
         	<div class="line line_1 line_l" data-delta="0">
-        		<div class="label"><span>Atelier</span></div>
+        		<div class="label"><span>Ateliers</span></div>
         	</div>
 
         	<div class="line line_2 line_l" data-delta="55">
@@ -35,7 +35,7 @@
 		        	<div class="box_offre">Enjeux</div>
 		        </div>
 		        <div class="box_offre_c">
-		        	<div class="box_offre">Opportunité</div>
+		        	<div class="box_offre">Opportunités</div>
 		        </div>
 		        <div class="box_offre_c">
 		        	<div class="box_offre">Idéations</div>
