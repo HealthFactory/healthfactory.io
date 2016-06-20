@@ -50,7 +50,7 @@
                 <div class="slide-content">
                     <div class="center-v-c">
                         <div class="center-v animate-txt">
-                            <div class="title">REINVENTONS LA SANTÉ</div>
+                            <div class="title">REINVENTONS LA SANTÉ</div>
                             <div class="text">
                                 <p>Un processus d'innovation complet pour identifier les technologies, les hommes et les nouveaux modèles économiques pour l'amélioration de la médecine et la prise en charge des patients.</p>
                             </div>

@@ -79,11 +79,13 @@ $(function() {
         $(this).toggleClass('active');
         var menu = $('.nav-header-c');
         menu.toggleClass('active');
-        if( menu.hasClass("active")){
-            menu.fadeIn(400);
-        } else {
-            menu.fadeOut(400);
-        }
+
+        if( menu.hasClass("active")){menu.fadeIn(400);}
+
+
+
+        else {menu.fadeOut(400);}
+
         return false;
     });
 
@@ -171,45 +173,6 @@ $(function() {
 
         slideshow.find('.pages').trigger('check');
 
-        /*var transition = slideshow.attr('data-transition');
-        if (transition == 'fade') {
-            newSlide.css({
-                display: 'block',
-                zIndex: 2
-            });
-            newSlideImage.css({
-                opacity: 0
-            });
-
-
-            slideshow.find('.pages').trigger('check');
-
-            TweenMax.to(newSlideImage, 1, {
-                alpha: 1,
-                onComplete: function() {
-                    newSlide.addClass('is-active').removeClass('is-new');
-                    activeSlide.removeClass('is-active');
-                    newSlide.css({
-                        display: '',
-                        zIndex: ''
-                    });
-                    newSlideImage.css({
-                        opacity: ''
-                    });
-                    //slideshow.find('.pages').trigger('check');
-                    slideshow.data('wait', false);
-                    if (auto) {
-                        timeout = setTimeout(function() {
-                            slideshowNext(slideshow, false, true);
-                        }, slideshowDuration);
-                        slideshow.data('timeout', timeout);
-                    }
-                }
-            });
-        } else {*/
-
-
-
         if (newSlide.index() > activeSlide.index()) {
             var newSlideRight = 0;
             var newSlideLeft = 'auto';
@@ -255,15 +218,18 @@ $(function() {
             y: 20,
             force3D: true
         });
-        TweenMax.to(activeSlideImage, 1, {
+
+        TweenMax.to(activeSlideImage, 2, {
             left: activeSlideImageLeft,
             ease: Power3.easeInOut
         });
-        TweenMax.to(newSlide, 1, {
+
+        TweenMax.to(newSlide, 2, {
             width: slideshow.width(),
             ease: Power3.easeInOut
         });
-        TweenMax.to(newSlideImage, 1, {
+
+        TweenMax.to(newSlideImage, 2, {
             right: newSlideImageToRight,
             left: newSlideImageToLeft,
             ease: Power3.easeInOut
@@ -276,33 +242,17 @@ $(function() {
             y: 0,
             ease: Power3.easeOut,
             force3D: true,
-            delay: 0.6
+
+            delay: 2
         }, 0.1, function() {
             newSlide.addClass('is-active').removeClass('is-new');
             activeSlide.removeClass('is-active');
-            newSlide.css({
-                display: '',
-                width: '',
-                left: '',
-                zIndex: ''
-            });
-            newSlideImage.css({
-                width: '',
-                right: '',
-                left: ''
-            });
-            newSlideContent.css({
-                width: '',
-                left: ''
-            });
-            newSlideElements.css({
-                opacity: '',
-                transform: ''
-            });
-            activeSlideImage.css({
-                left: ''
-            });
-            //slideshow.find('.pages').trigger('check');
+            newSlide.css({display: '',width: '',left: '',zIndex: ''});
+            newSlideImage.css({width: '',right: '',left: ''});
+            newSlideContent.css({width: '',left: ''});
+            newSlideElements.css({opacity: '',transform: ''});
+            activeSlideImage.css({left: ''});
+            slideshow.find('.pages').trigger('check');
             slideshow.data('wait', false);
             if (auto) {
                 timeout = setTimeout(function() {
@@ -318,15 +268,18 @@ $(function() {
         var slides = slideshow.find('.slide');
         var activeSlide = slides.filter('.is-active');
         var newSlide = null;
-        /*if (previous) {
+
+        if (previous) {
             newSlide = activeSlide.prev('.slide');
             if (newSlide.length == 0)
                 newSlide = slides.last();
-        } else {*/
+
+        } else {
             newSlide = activeSlide.next('.slide');
             if (newSlide.length == 0)
                 newSlide = slides.filter('.slide').first();
-        /*}*/
+
+        }
         slideshowSwitch(slideshow, newSlide.index(), auto);
     }
     /*
@@ -338,9 +291,7 @@ $(function() {
     //$('.shuffle').chaffle();
 
     $('.slideshow .pages .page').on('click', function() {
-        console.log("test " + $(this).index());
-
-        slideshowSwitch($(this).closest('.slideshow'), $(this).index());
+        slideshowSwitch($(this).closest('.slideshow'), $(this).index(),true);
     });
 
     $('.slideshow .pages').on('check', function() {
@@ -352,7 +303,6 @@ $(function() {
     });
 
     $('.slideshow').each(function() {
-        console.log("TESTSETSETSET");
         var slideshow = $(this);
         var images = slideshow.find('.image').not('.is-loaded');
         images.on('loaded', function() {
@@ -422,7 +372,6 @@ $(function() {
     $(document).on('pageInithome', function() {
        	
         var controller = new ScrollMagic.Controller();
-
 
         $(window).on("scroll", onScroll);
 
@@ -599,25 +548,71 @@ $(function() {
 
         });
 
+        var test = 1;
         $('.line').each(function() {
 
             var line = $(this);
             var trigger = $('.content_offres');
             var height_line = line.height();
-            var delta = line.attr('data-delta');
+            var delta = line.attr('data-delta') * -1;
+            var delta_end = line.attr('data-delta-end');
+            var first = line.attr('data-first') - 1;
+            var end   = line.attr('data-end') - 1;
             var label = line.find('.label');
+            var label_span = line.find('.label span');
+            var label_width = label.width();
+            var label_span_width = label_span.width();
+            var label_bulle = label.find('.bulle');
+            var label_bulle_line = label.find('.bulle_line');
+            var diff_label = label_span_width+10;
             
-            var scene = new ScrollMagic.Scene({
-                triggerElement: trigger.get(0),
-                duration: height_line - 50 - delta ,
-                reverse:true
+            var height_step = trigger.height() / ($('.liste_offres').find('.box_offre_c').length - 1);
+            var top         = first * height_step;
+            var height_line = (end-first) * height_step;
+
+            console.log("Line "+test+" => top:"+top+"  //  height_line:"+height_line);
+
+            line.css({top: top,height: height_line})
+            
+            var scene_test = new ScrollMagic.Scene({
+                triggerHook: 0.4,
+                offset: delta - 30,
+                triggerElement: label.get(0),
+                reverse: true
             });
 
+            if ( $(this).hasClass('line_l') ) {
+                var label_anim = label.get(0);
+                var label_anim_tween = new TimelineMax()
+                .add(TweenMax.fromTo(label_bulle, 0.2, {scale: 0,transformOrigin: "50% 50%"},{scale: 1,force3D: true}))
+                .add(TweenMax.fromTo(label_bulle_line, 0.4, {left: '100%'},{left: diff_label}))
+                .add(TweenMax.fromTo(label_span, 0.4, {alpha: 0},{alpha: 1}))
+            } else {
+                var label_anim = label.get(0);
+                var label_anim_tween = new TimelineMax()
+                .add(TweenMax.fromTo(label_bulle, 0.2, {scale: 0,transformOrigin: "50% 50%"},{scale: 1,force3D: true}))
+                .add(TweenMax.fromTo(label_bulle_line, 0.4, {right: '100%'},{right: diff_label}))
+                .add(TweenMax.fromTo(label_span, 0.4, {alpha: 0},{alpha: 1}))
+            } 
+            scene_test.setTween(label_anim_tween);
+            scene_test.addTo(controller);
+
+
+            var scene = new ScrollMagic.Scene({
+                triggerHook: 0.4,
+                offset: delta,
+                triggerElement: line.get(0),
+                duration: height_line - 50 - delta_end,
+                reverse: true
+            });
+
+            //scene.setTween(nervousHat)
             scene.setPin(label.get(0),{pushFollowers:false});
-            //scene.addIndicators();
             scene.addTo(controller);
-            
+            test++;        
         });
+
+        /* Paralaxe Home */ 
 
         $('.section-paralax').each(function() {
             var section = $(this);
@@ -631,12 +626,12 @@ $(function() {
             var tl = new TimelineLite();
             tl.call(function() {
                 background.css({
-                    height: section.first().height()
+                    height: section.first().height(),
                 });
             });
             tl.fromTo(title, 0.3, {
                 alpha: 0,
-                y:50
+                y:0
             }, {
                 alpha: 1,
                 y: 0,
@@ -669,9 +664,8 @@ $(function() {
         $('.scroller').each(function() {
             var section = $(this);
             var items = section.find('.dot');
-            var tl = new TimelineLite();
+            var tl = new TimelineMax({repeat:-1});
             tl.staggerFromTo(items, 2, {alpha: 0,y: 0}, {alpha: 1,y: 10,ease: Power3.easeOut,force3D: true,repeat:-1}, 0.2, 0);
-            tl.call(function() {items.css({opacity: '',transform: ''});;});
         });
 		
     });
@@ -772,6 +766,128 @@ $(function() {
             scene.setTween(tl);
             scene.addTo(controller);
         });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         
     });
     
