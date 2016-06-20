@@ -36,14 +36,14 @@
                     <div class="bulle_line"></div>
                 </div>
         	</div>
-        	<div class="line line_l_5 line_l" data-delta="200" data-delta-end="0" data-first="3.5" data-end="7">
+        	<div class="line line_l_5 line_l" data-delta="200" data-delta-end="50" data-first="3.5" data-end="7">
         		<div class="label">
                     <span><?php echo L::label_5; ?></span>
                     <div class="bulle"></div>
                     <div class="bulle_line"></div>
                 </div>
         	</div>
-        	<div class="line line_l_6 line_l" data-delta="250" data-delta-end="50" data-first="5.24" data-end="7">
+        	<div class="line line_l_6 line_l" data-delta="250" data-delta-end="0" data-first="5.24" data-end="7">
         		<div class="label">
                     <span><?php echo L::label_6; ?></span>
                     <div class="bulle"></div>

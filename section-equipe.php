@@ -39,7 +39,7 @@
             </div>
             <div class="clearfix"></div>
             <div class="action">
-                <a href="#" class="btn" data-text="Voir toute l'équipe" title="Voir toute l'équipe"><span>Voir toute l'équipe</span></a>
+                <a href="#" class="btn" data-text="Voir toute l'équipe" title="Voir toute l'équipe"><span><?php echo L::btn_equipe; ?></span></a>
             </div>
             <div class="clearfix"></div>
         </div>
