@@ -72,12 +72,12 @@
 <section id="contact" class="section">
     <div class="center_page">
         <div class="titre">
-            <h2>Contact</h2>
+            <h2><?php echo L::menu_6; ?></h2>
             <h3></h3>
         </div>
         <div class="content">
             <div class="col_2">
-                <h4 class="contact">Où sommes-nous ?</h4>
+                <h4 class="contact"><?php echo L::contact_title_1; ?></h4>
                 <address>23 bd de la marne<br>67000 Strasbourg</address>
                 <p class="telephone">+33 624 720 496</p>
                 <p class="email">hello@healthfactory.io</p>
@@ -89,16 +89,16 @@
                 <div class="clearfix"></div>
             </div>
             <div class="col_2">
-                <h4 class="contact">Nous écrire</h4>
+                <h4 class="contact"><?php echo L::contact_title_2; ?></h4>
                 <div class="form_wrap">
                 <form action="" method="">
-                    <input name="prenom" type="text" placeholder="Prénom" />
-                    <input name="nom" type="text" placeholder="Nom" />
-                    <input name="email" type="email" placeholder="Email" />
-                    <textarea rows="4" name="message" placeholder="Message"></textarea>
+                    <input name="prenom" type="text" placeholder="<?php echo L::contact_input_1; ?>" />
+                    <input name="nom" type="text" placeholder="<?php echo L::contact_input_2; ?>" />
+                    <input name="email" type="email" placeholder="<?php echo L::contact_input_3; ?>" />
+                    <textarea rows="4" name="message" placeholder="<?php echo L::contact_input_4; ?>"></textarea>
 
-                    <a class="btn" data-text="Envoyer" href="#" onclick="$(this).closest('form').submit()">
-                        <span>Envoyer</span>
+                    <a class="btn" data-text="<?php echo L::contact_input_submit; ?>" href="#" onclick="$(this).closest('form').submit()">
+                        <span><?php echo L::contact_input_submit; ?></span>
                     </a>
                 </form>
                 </div>

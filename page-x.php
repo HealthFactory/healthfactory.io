@@ -2,6 +2,8 @@
 
 global $define_page;
 
+include('config.php');
+
 $define_page = array(
     'class'         => 'page',
     'titre'         => 'Health Factory',

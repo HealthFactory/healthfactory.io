@@ -7,13 +7,13 @@
     <div class="col_2 col_2_t">
         <div class="box_content animate-v-c">
             <div class="titre animate-v">
-                <h2>Concept</h2>
-                <h3>UN PROTOTYPE EN UNE SEMAINE</h3>
+                <h2><?php echo $title_h2; ?></h2>
+                <h3><?php echo $title_h3; ?></h3>
             </div>
             <div class="content animate-v">
-                <p>Un processus d'innovation qui vous apporte toutes les ressources et l'expertise nécessaire pour expérimenter vos idées, concevoir des prototypes et trouver un modèle économique en santé</p>
+                <p><?php echo $content; ?></p>
                 <div class="action">
-                    <a href="#" class="btn" data-text="En savoir plus" title="">En savoir plus</a>
+                    <a href="<?php echo $link; ?>" class="btn" data-text="<?php echo L::btn_plus; ?>" title=""><?php echo L::btn_plus; ?></a>
                 </div>
             </div>
         </div>

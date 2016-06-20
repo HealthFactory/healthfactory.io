@@ -338,20 +338,18 @@ AddDefaultCharset utf-8
 
 <IfModule mod_rewrite.c>
 
-    # (1)
     RewriteEngine On
+    RewriteBase /hf2/  
 
-    # (2)
-    Options +FollowSymlinks
+    # empty url -> redirect to en/
+    #RewriteCond %{QUERY_STRING} !lang=(en|de|es)
+    #RewriteRule ^$ $1/ [R=301,L]
 
-    # (3)
-    # Options +SymLinksIfOwnerMatch
+    # url is ONLY '/en' or '/de' -> redirect to /en/ or /de/ (adding slash)
+    RewriteRule ^(en|de|es)$  $1/ [R=301,L]
 
-    # (4)
-    # RewriteBase /
-
-    # (5)
-    # RewriteOptions <options>
+    # now all urls have en/ de/ -> parse them
+    RewriteRule ^(en|de|es)/(.*)$  $2?language=$1&%{query_STRING} [L]
 
 </IfModule>
 

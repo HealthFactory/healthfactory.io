@@ -7,20 +7,15 @@
         <div class="nav-header-c">
             <nav class="nav-header">
                 <ul>
-                    <li><span class="scrollto" data-target="concept" title="">Concept</span></li>
-                    <li><span class="scrollto" data-target="innovation" title="">Innovation & Expertise</span></li>
-                    <li><span class="scrollto" data-target="metho" title="">Méthodologie</span></li>
-                    <li><span class="scrollto" data-target="offre" title="">L'offre</span></li>
-                    <li><span class="scrollto" data-target="equipe" title="">L'équipe</span></li>
-                    <li><span class="scrollto" data-target="contact" title="">Contact</span></li>
+                    <li><span class="scrollto" data-target="concept" title=""><?php echo L::menu_1; ?></span></li>
+                    <li><span class="scrollto" data-target="innovation" title=""><?php echo L::menu_2; ?></span></li>
+                    <li><span class="scrollto" data-target="metho" title=""><?php echo L::menu_3; ?></span></li>
+                    <li><span class="scrollto" data-target="offre" title=""><?php echo L::menu_4; ?></span></li>
+                    <li><span class="scrollto" data-target="equipe" title=""><?php echo L::menu_5; ?></span></li>
+                    <li><span class="scrollto" data-target="contact" title=""><?php echo L::menu_6; ?></span></li>
                 </ul>
             </nav>
-            <div class="select-lang">
-                <ul>
-                    <li class="active">EN</li>
-                    <li>FR</li>
-                </ul>
-            </div>
+            <?php select_lang($lang); ?>
         </div>
         <div class="clearfix"></div>
     </div>

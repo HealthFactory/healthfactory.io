@@ -4,24 +4,19 @@
 
 <section class="section-slideshow slideshow screen-height">
 
-    <div class="select-lang">
-        <ul>
-            <li class="active">EN</li>
-            <li>FR</li>
-        </ul>
-    </div>
+    <?php select_lang($lang); ?>
 
     <div class="logo_slider">
         <div class="logo_img"></div>
         <div class="logo_txt">go beyond ideas</div>
     </div>
 
-    <div class="mh mhl mh1"><span class="scrollto shuffle" data-target="concept">Concept</span></div>
-    <div class="mh mhl mh2"><span class="scrollto shuffle" data-target="innovation">Innovation<br>& conseil</span></div>
-    <div class="mh mhl mh3"><span class="scrollto shuffle" data-target="metho">Méthodologie</span></div>
-    <div class="mh mhr mh4"><span class="scrollto shuffle" data-target="offre">L'offre</span></div>
-    <div class="mh mhr mh5"><span class="scrollto shuffle" data-target="equipe">L'équipe</span></div>
-    <div class="mh mhr mh6"><span class="scrollto shuffle" data-target="contact">Contact</span></div>
+    <div class="mh mhl mh1"><span class="scrollto shuffle" data-target="concept"><?php echo L::menu_1; ?></span></div>
+    <div class="mh mhl mh2"><span class="scrollto shuffle" data-target="innovation"><?php echo L::menu_2_1; ?><br><?php echo L::menu_2_2; ?></span></div>
+    <div class="mh mhl mh3"><span class="scrollto shuffle" data-target="metho"><?php echo L::menu_3; ?></span></div>
+    <div class="mh mhr mh4"><span class="scrollto shuffle" data-target="offre"><?php echo L::menu_4; ?></span></div>
+    <div class="mh mhr mh5"><span class="scrollto shuffle" data-target="equipe"><?php echo L::menu_5; ?></span></div>
+    <div class="mh mhr mh6"><span class="scrollto shuffle" data-target="contact"><?php echo L::menu_6; ?></span></div>
 
     <div class="scroller">
         <div class="dot"></div>
@@ -37,10 +32,8 @@
                 <div class="slide-content">
                     <div class="center-v-c">
                         <div class="center-v animate-txt">
-                            <div class="title">INNOVONS EN SANTÉ</div>
-                            <div class="text">
-                                <p>La santé est le domaine qui peut bénéficier le plus des nouvelles technologies pour le bien de l'humanité. Healh Factory est l'acteur qui vous offre l'opportunité d'en tirer parti au mieux.</p>
-                            </div>
+                            <div class="title"><?php echo L::slide_1_title; ?></div>
+                            <div class="text"><p><?php echo L::slide_1_content; ?></p></div>
                         </div>
                     </div>
                 </div>
@@ -50,10 +43,8 @@
                 <div class="slide-content">
                     <div class="center-v-c">
                         <div class="center-v animate-txt">
-                            <div class="title">REINVENTONS LA SANTÉ</div>
-                            <div class="text">
-                                <p>Un processus d'innovation complet pour identifier les technologies, les hommes et les nouveaux modèles économiques pour l'amélioration de la médecine et la prise en charge des patients.</p>
-                            </div>
+                            <div class="title"><?php echo L::slide_2_title; ?></div>
+                            <div class="text"><p><?php echo L::slide_2_content; ?></p></div>
                         </div>
                     </div>
                 </div>
