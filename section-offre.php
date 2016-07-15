@@ -57,6 +57,13 @@
                     <div class="bulle_line"></div>
                 </div>
         	</div>
+          <div class="line line_l_8 line_l" data-delta="0" data-delta-end="0" data-first="1.2" data-end="7.7" style="z-index: 0;">
+        		<div class="label">
+                    <span style="text-align: right;"><?php echo L::label_11; ?></span>
+                    <div class="bulle"></div>
+                    <div class="bulle_line"></div>
+                </div>
+        	</div>
 
             <div class="line line_r_1 line_r" data-delta="0" data-delta-end="0" data-first="1.2" data-end="4">
                 <div class="label">
@@ -79,14 +86,7 @@
                     <div class="bulle_line"></div>
                 </div>
             </div>
-        	<div class="line line_r_4 line_r" data-delta="150" data-delta-end="0" data-first="5" data-end="6">
-        		<div class="label">
-                    <span><?php echo L::label_11; ?></span>
-                    <div class="bulle"></div>
-                    <div class="bulle_line"></div>
-                </div>
-        	</div>
-        	<div class="line line_r_5 line_r" data-delta="200" data-delta-end="0" data-first="6" data-end="7">
+        	<div class="line line_r_4 line_r" data-delta="0" data-delta-end="0" data-first="1.2" data-end="7.7" style="z-index: 0;">
         		<div class="label">
                     <span><?php echo L::label_12; ?></span>
                     <div class="bulle"></div>
@@ -131,6 +131,8 @@
 		    </div>
 		</div>
 
-        </div>
+    <div class="action" style="text-align: center; margin-top: 100px;">
+        <a href="mailto:hello@healthfactory.io" class="btn" data-text="En savoir plus" title="">En savoir plus</a>
     </div>
+  </div>
 </section>

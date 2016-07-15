@@ -48,6 +48,17 @@
                         </div>
                     </div>
                 </div>
+                <div class="image-container screen-height"> <img src="img/slider_3.jpg" data-src="img/slider_3.jpg" alt="" width="1920" height="1080" class="image queue-loading as-background" style="display: none;"></div>
+            </div>
+            <div class="slide">
+                <div class="slide-content">
+                    <div class="center-v-c">
+                        <div class="center-v animate-txt">
+                            <div class="title"><?php echo L::slide_3_title; ?></div>
+                            <div class="text"><p><?php echo L::slide_3_content; ?></p></div>
+                        </div>
+                    </div>
+                </div>
                 <div class="image-container screen-height"> <img src="img/slider_2.jpg" data-src="img/slider_1.jpg" alt="" width="1920" height="1080" class="image queue-loading as-background" style="display: none;"></div>
             </div>
 
@@ -55,6 +66,7 @@
         <div class="pages">
             <div class="page is-active"><span class="icon">1</span></div>
             <div class="page"><span class="icon">2</span></div>
+            <div class="page"><span class="icon">3</span></div>
         </div>
     </div>
 </section>

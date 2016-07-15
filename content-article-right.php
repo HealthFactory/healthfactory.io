@@ -1,7 +1,7 @@
 <article class="article_right">
     <div class="col_2 col_2_v">
         <div class="visuel">
-            <img src="img/visuel.jpg" class="image queue-loading">
+            <img src="img/expertise-innovation-health.jpg" class="image queue-loading">
         </div>
     </div>
     <div class="col_2 col_2_t">
