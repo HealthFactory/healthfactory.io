@@ -3,9 +3,9 @@
                 <div class="logo"></div>
                 <nav class="nav-footer">
                     <ul>
-                        <li><a href="#">Mentions légales</a></li>
-                        <li><a href="#">Tous droits réservés</a></li>
-                        <li><a href="#">Crédits</a></li>
+                        <li>Mentions légales</li>
+                        <li>Tous droits réservés</li>
+                        <li>Crédits</li>
                     </ul>
                 </nav>
                 <div class="clearfix"></div>

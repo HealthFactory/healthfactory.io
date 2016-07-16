@@ -78,8 +78,10 @@
         <div class="content">
             <div class="col_2">
                 <h4 class="contact"><?php echo L::contact_title_1; ?></h4>
-                <p class="contact">Montréal - Strasbourg - New York</p>
-                <h4 class="contact">Partager</h4>
+                <p class="contact">Strasbourg |<span class="contact"> PH8, 8 place de l'hopital, 67000 Strasbourg, France</span></p>
+                <p class="contact">Montréal |<span class="contact"> A-1514 AVE Docteur-Penfield, Montreal, Quebec, H3G 1B9, Canada</span></p>
+                <p class="contact">New York |<span class="contact"> 32 W 131st street, New York, NY, 10037, USA</span></p>
+                <h4 class="contact">Vous aimez notre vision, partagez-là</h4>
                 <div id="fb-root"></div>
                 <script>(function(d, s, id) {
                   var js, fjs = d.getElementsByTagName(s)[0];
@@ -116,7 +118,7 @@
                 <p class="contact"><a href="mailto:hello@healthfactory.io">hello@healthfactory.io</a></p>
                 <div class="clearfix"></div>
 
-                <h4 class="contact">Suivez-nous et prenez part à l'innovation</h4>
+                <h4 class="contact">Suivez-nous et prenez part à l'innovation !</h4>
                 <ul class="social">
                     <li><a href="https://www.facebook.com/HealthFactoryIO/" class="icon icon-facebook" target="_blank"></a></li>
                     <li><a href="https://twitter.com/_healthfactory" class="icon icon-twitter" target="_blank"></a></li>

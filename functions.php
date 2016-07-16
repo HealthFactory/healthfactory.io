@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 function sanitize_txt($text) {
   $text = preg_replace('~[^\pL\d]+~u', '-', $text);
@@ -13,7 +13,7 @@ function sanitize_txt($text) {
 
 function select_lang($current) {
 
-	$liste_lang = array('fr','en','de','es'); ?>
+	$liste_lang = array('fr'); ?>
 
 	<div class="select-lang">
         <ul>
