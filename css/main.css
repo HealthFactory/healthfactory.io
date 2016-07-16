@@ -1507,7 +1507,7 @@ footer ul li a {
 }
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 750px) {
 
 
     .col_3,
@@ -1529,13 +1529,21 @@ footer ul li a {
     right: 10px;
     }
 
+    .logo_slider:after {
+        display: none;
+    }
 
     .logo_slider {
-        top: 50px;
+        top: 20px;
+    }
+
+    .scroller {
+        bottom:5px;
+        display: none;
     }
 
     .slideshow .pages {
-        bottom: 100px;
+        bottom: 25px;
     }
 
     .slideshow .slide .title {
