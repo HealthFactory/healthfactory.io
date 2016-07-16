@@ -9,14 +9,22 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title><?php echo $define_page['titre']; ?></title>
+
+        <meta property="og:url"           content="http://healthfactory.io" />
+        <meta property="og:type"          content="website" />
+        <meta property="og:title"         content="Health Factory" />
+        <meta property="og:description"   content="Les expertises HEALTH FACTORY sont dédiées aux professionnels de la santé : big pharma, industriels secteur santé, l'industrie des objets connectés, assureurs, hôpitaux, cliniques, établissements de soins, professionels de la santé, startups dans l'univers médical. Notre vocation est de vous aider à trouver de nouveaux modèles économiques et d'optimiser vos modèles existants." />
+        <meta property="og:image"         content="http://healthfactory.io/img/facebook.jpg" />
+
         <meta name="description" content="<?php echo $define_page['description']; ?>">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
-  
+
         <link href='fonts/geomanist/geomanist.min.css' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
 
         <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/iconfont.css">
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>

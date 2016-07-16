@@ -1342,27 +1342,14 @@ p.email {
 }
 
 .social {
-margin:40px 0px 0px 0px;
-padding: 0;
-list-style: none;
 }
-
-.social li {float:left;margin-right:30px;}
-
+.social li {
+  line-height: 40px;
+}
 .social li a {
-    background-image:url(../img/icon-social.min.svg);
-    display: block;
-    width: 35px;
-    height: 35px;
-    text-indent: -9999px;
-    background-size: auto 35px;
-    background-repeat: no-repeat;
+  font-size: 24px;
+  color: #64d2af;
 }
-
-.social li a.fb {background-position: 0px 0px;}
-.social li a.tw {background-position: -35px 0px;}
-/*.social li a.ig {background-position: -105px 0px;}*/
-.social li a.yt {background-position: -105px 0px;}
 
 .form_wrap input {
     border:2px solid #6b7177;

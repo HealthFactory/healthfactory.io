@@ -79,29 +79,48 @@
             <div class="col_2">
                 <h4 class="contact"><?php echo L::contact_title_1; ?></h4>
                 <address>Montréal - Strasbourg - New York</address>
-                <p class="telephone">+33 624 720 496</p>
-                <p class="email">hello@healthfactory.io</p>
-                <ul class="social">
-                    <li><a href="https://www.facebook.com/HealthFactoryIO/" class="fb" target="_blank">Facebook</a></li>
-                    <li><a href="http://twitter.com/_healthfactory" class="tw" target="_blank">Twitter</a></li>
-                    <li><a href="https://www.youtube.com/channel/UC3cp1CMc4tzNMuBaLvJOitw" class="yt" target="_blank">YouTube</a></li>
-                </ul>
+                <h4 class="contact">Partager</h4>
+                <div id="fb-root"></div>
+                <script>(function(d, s, id) {
+                  var js, fjs = d.getElementsByTagName(s)[0];
+                  if (d.getElementById(id)) return;
+                  js = d.createElement(s); js.id = id;
+                  js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.7";
+                  fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));</script>
+                <div class="fb-like" data-href="https://www.facebook.com/HealthFactoryIO" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+                <div class="fb-send" data-href="https://www.facebook.com/HealthFactoryIO" data-size="small" data-colorscheme="dark"></div>
+                <br><br><br>
+                <script>window.twttr = (function(d, s, id) {
+                  var js, fjs = d.getElementsByTagName(s)[0],
+                    t = window.twttr || {};
+                  if (d.getElementById(id)) return t;
+                  js = d.createElement(s);
+                  js.id = id;
+                  js.src = "https://platform.twitter.com/widgets.js";
+                  fjs.parentNode.insertBefore(js, fjs);
+
+                  t._e = [];
+                  t.ready = function(f) {
+                    t._e.push(f);
+                  };
+
+                  return t;
+                }(document, "script", "twitter-wjs"));</script>
+                <a class="twitter-follow-button" href="https://twitter.com/_healthfactory">Follow @_healthfactory</a>
+                <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Health%20Factory%20l'expertise%20de%20l'innovation%20en%20santé">Partager</a>
                 <div class="clearfix"></div>
             </div>
             <div class="col_2">
                 <h4 class="contact"><?php echo L::contact_title_2; ?></h4>
-                <div class="form_wrap">
-                <form action="" method="">
-                    <input name="prenom" type="text" placeholder="<?php echo L::contact_input_1; ?>" />
-                    <input name="nom" type="text" placeholder="<?php echo L::contact_input_2; ?>" />
-                    <input name="email" type="email" placeholder="<?php echo L::contact_input_3; ?>" />
-                    <textarea rows="4" name="message" placeholder="<?php echo L::contact_input_4; ?>"></textarea>
-
-                    <a class="btn" data-text="<?php echo L::contact_input_submit; ?>" href="#" onclick="$(this).closest('form').submit()">
-                        <span><?php echo L::contact_input_submit; ?></span>
-                    </a>
-                </form>
-                </div>
+                <p class="telephone">+33 624 720 496</p>
+                <p class="email">hello@healthfactory.io</p>
+                <ul class="social">
+                    <li><a href="https://www.facebook.com/HealthFactoryIO/" class="icon icon-facebook" target="_blank"> Facebook</a></li>
+                    <li><a href="https://twitter.com/_healthfactory" class="icon icon-twitter" target="_blank"> Twitter</a></li>
+                    <li><a href="https://www.youtube.com/channel/UC3cp1CMc4tzNMuBaLvJOitw" class="icon icon-youtube" target="_blank"> YouTube</a></li>
+                    <li><a href="https://linkedin.com/in/sebmade" class="icon icon-linkedin" target="_blank"> LinkedIn</a></li>
+                </ul>
                 <div class="clearfix"></div>
             </div>
             <div class="clearfix"></div>
