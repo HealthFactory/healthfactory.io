@@ -18,6 +18,12 @@ $(function() {
         checkWindowSize();
         checkDeviceType();
         screenHeightResize();
+        var menu = $('.nav-header-c');
+        if ( windowWidth <= 1239 ) {
+            menu.fadeOut(400);
+        } else {
+            menu.fadeIn(400);
+        }
         $(window).trigger('scroll');
     });
 
@@ -404,15 +410,18 @@ $(function() {
                 $(document).on("scroll", onScroll);
             });
 
-            $('.menu_burger').toggleClass('active');
             var menu = $('.nav-header-c');
-            menu.toggleClass('active');
-            if( menu.hasClass("active")){
-                menu.fadeIn(400);
-            } else {
-                menu.fadeOut(400);
-            }
 
+            if ( menu.hasClass("active") ) {
+                $('.menu_burger').toggleClass('active');
+                menu.toggleClass('active');
+                if ( windowWidth <= 1239 ) {
+                    menu.fadeOut(400);
+                } else {
+                    menu.fadeIn(400);
+                }
+            }
+            
             return false;
         });
         
