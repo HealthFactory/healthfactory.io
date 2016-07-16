@@ -1643,6 +1643,10 @@ footer ul li a {
     padding: 0px 0px;
     line-height: 46px;
     }
+
+    .select-lang {
+    right: 10px;
+    }
 }
 
 
