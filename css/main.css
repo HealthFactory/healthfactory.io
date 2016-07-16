@@ -186,7 +186,10 @@ header.is-sticky {
     top:20%;
     left:50%;
     transform: translateX(-50%);
-    -webkit-transform: -webkit-translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
 }
 
 .logo_slider:after {
@@ -1521,6 +1524,11 @@ footer ul li a {
         overflow: hidden;
     }
 
+    .select-lang {
+    top: 10px;
+    right: 10px;
+    }
+
 
     .logo_slider {
         top: 50px;
@@ -1531,18 +1539,23 @@ footer ul li a {
     }
 
     .slideshow .slide .title {
-        font-size: 35px;
-        line-height: 50px;
+        font-size: 25px;
+        line-height: 30px;
+        padding:0 20px;
     }
     .slideshow .slide .text p {
         font-size: 15px;
         letter-spacing: 0.08em;
     }
+    .slideshow .slide .text {
+        padding:0px 20px;
+    }
 
     .section .titre h3 {
-    font-size: 33px;
-    line-height: 48px;
+    font-size: 25px;
+    line-height: 30px;
     }
+    
     .section .titre {
     margin-bottom: 60px;
 }
@@ -1598,6 +1611,9 @@ footer ul li a {
         height: 72px;
         padding: 10px 25px;
     }
+    .line {
+        display: none;
+    }
     #contact .content .col_2,
     .box_equipe {
         margin-bottom:30px;
@@ -1639,9 +1655,9 @@ footer ul li a {
         height: 400px;
     }
     #paralax h2 {
-    font-size: 32px;
+    font-size: 25px;
     padding: 0px 0px;
-    line-height: 46px;
+    line-height: 30px;
     }
 
     .select-lang {
