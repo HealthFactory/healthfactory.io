@@ -29,8 +29,8 @@
         var map = document.getElementById('map');
         var map = new google.maps.Map(map, {
             center: {
-                lat:46.227638,
-                lng:2.213749000000007
+                lat:44.9763176,
+                lng:-32.1239327
             },
             zoom: 3,
             disableDefaultUI: true,
@@ -78,7 +78,7 @@
         <div class="content">
             <div class="col_2">
                 <h4 class="contact"><?php echo L::contact_title_1; ?></h4>
-                <address>Montréal - Strasbourg - New York</address>
+                <p class="contact">Montréal - Strasbourg - New York</p>
                 <h4 class="contact">Partager</h4>
                 <div id="fb-root"></div>
                 <script>(function(d, s, id) {
@@ -108,18 +108,20 @@
                   return t;
                 }(document, "script", "twitter-wjs"));</script>
                 <a class="twitter-follow-button" href="https://twitter.com/_healthfactory">Follow @_healthfactory</a>
-                <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Health%20Factory%20l'expertise%20de%20l'innovation%20en%20santé">Partager</a>
+                <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=Health%20Factory%20leader%20de%20l'innovation%20en%20santé">Partager</a>
                 <div class="clearfix"></div>
             </div>
             <div class="col_2">
                 <h4 class="contact"><?php echo L::contact_title_2; ?></h4>
-                <p class="telephone">+33 624 720 496</p>
-                <p class="email">hello@healthfactory.io</p>
+                <p class="contact"><a href="mailto:hello@healthfactory.io">hello@healthfactory.io</a></p>
+                <div class="clearfix"></div>
+
+                <h4 class="contact">Suivez-nous et prenez part à l'innovation</h4>
                 <ul class="social">
-                    <li><a href="https://www.facebook.com/HealthFactoryIO/" class="icon icon-facebook" target="_blank"> Facebook</a></li>
-                    <li><a href="https://twitter.com/_healthfactory" class="icon icon-twitter" target="_blank"> Twitter</a></li>
-                    <li><a href="https://www.youtube.com/channel/UC3cp1CMc4tzNMuBaLvJOitw" class="icon icon-youtube" target="_blank"> YouTube</a></li>
-                    <li><a href="https://linkedin.com/in/sebmade" class="icon icon-linkedin" target="_blank"> LinkedIn</a></li>
+                    <li><a href="https://www.facebook.com/HealthFactoryIO/" class="icon icon-facebook" target="_blank"></a></li>
+                    <li><a href="https://twitter.com/_healthfactory" class="icon icon-twitter" target="_blank"></a></li>
+                    <li><a href="https://www.youtube.com/channel/UC3cp1CMc4tzNMuBaLvJOitw" class="icon icon-youtube" target="_blank"></a></li>
+                    <li><a href="http://lnked.in/healthfactory" class="icon icon-linkedin" target="_blank"></a></li>
                 </ul>
                 <div class="clearfix"></div>
             </div>

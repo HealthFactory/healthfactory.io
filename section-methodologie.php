@@ -62,6 +62,9 @@
                 <div class="clearfix"></div>
 
             </div>
+            <div class="action" style="text-align: center; margin-top: 100px;">
+                <a href="mailto:hello@healthfactory.io" class="btn btn-black" data-text="En savoir plus" title="">En savoir plus</a>
+            </div>
             <div class="clearfix"></div>
         </div>
     </div>
