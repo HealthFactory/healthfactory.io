@@ -125,6 +125,9 @@
                     <li><a href="https://www.youtube.com/channel/UC3cp1CMc4tzNMuBaLvJOitw" class="icon icon-youtube" target="_blank"></a></li>
                     <li><a href="http://lnked.in/healthfactory" class="icon icon-linkedin" target="_blank"></a></li>
                 </ul>
+                <br><br>
+                <h4 class="contact">Avec le soutien de la French Tech MEDTECH / BIOTECH</h4>
+                <a href="http://www.lafrenchtech-alsace.eu/" target="_blank"><img src="img/french-tech-medtech.png" style="width: 100px;"></a>
                 <div class="clearfix"></div>
             </div>
             <div class="clearfix"></div>

@@ -44,6 +44,16 @@
             <div class="clearfix"></div>
         </div>
         <div class="content animate-v-c">
+          <div class="col_3 animate-v">
+              <div class="box_col box_equipe">
+                  <div class="visuel">
+                      <img src="img/jacques-marescaux.jpg" class="queue-loading as-background">
+                  </div>
+                  <h4><?php echo L::equipe_6_nom; ?></h4>
+                  <h5><?php echo L::equipe_6_fonction; ?></h5>
+                  <p><?php echo L::equipe_6_content; ?></p>
+              </div>
+          </div>
             <div class="col_3 animate-v">
                 <div class="box_col box_equipe">
                     <div class="visuel">
@@ -62,16 +72,6 @@
                     <h4><?php echo L::equipe_5_nom; ?></h4>
                     <h5><?php echo L::equipe_5_fonction; ?></h5>
                     <p><?php echo L::equipe_5_content; ?></p>
-                </div>
-            </div>
-            <div class="col_3 animate-v">
-                <div class="box_col box_equipe">
-                    <div class="visuel">
-                        <img src="img/jacques-marescaux.jpg" class="queue-loading as-background">
-                    </div>
-                    <h4><?php echo L::equipe_6_nom; ?></h4>
-                    <h5><?php echo L::equipe_6_fonction; ?></h5>
-                    <p><?php echo L::equipe_6_content; ?></p>
                 </div>
             </div>
             <div class="clearfix"></div>
