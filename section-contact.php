@@ -127,7 +127,7 @@
                 </ul>
                 <br><br>
                 <h4 class="contact">Avec le soutien de la French Tech MEDTECH / BIOTECH</h4>
-                <a href="http://www.lafrenchtech-alsace.eu/" target="_blank"><img src="img/french-tech-medtech.png" style="width: 100px;"></a>
+                <a href="http://www.lafrenchtech-alsace.eu/" target="_blank"><img src="img/french-tech-medtech.png" style="height: 200px;"></a>
                 <div class="clearfix"></div>
             </div>
             <div class="clearfix"></div>
