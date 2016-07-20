@@ -4,7 +4,11 @@
             <h2><?php echo L::menu_4; ?></h2>
             <h3><?php echo L::offre_title; ?></h3>
         </div>
-        <div class="content content_scroll">
+
+        <div class="visuel_offre_mobile mobile">
+            <img src="img/timeline-hf.png">
+        </div>
+        <div class="content content_scroll desktop">
 
         <div class="content_offres">
 

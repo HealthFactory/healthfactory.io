@@ -111,6 +111,14 @@ section {
     vertical-align: middle;
 }
 
+.mobile {
+    display: none;
+}
+
+.desktop {
+    display: block;
+}
+
 /* HEADER */
 
 header {
@@ -1509,6 +1517,12 @@ footer ul li a {
 
 @media only screen and (max-width: 750px) {
 
+    .mobile {
+        display: block;
+    }
+    .desktop {
+        display: none;
+    }
 
     .col_3,
     .col_2 {
@@ -1670,6 +1684,15 @@ footer ul li a {
 
     .select-lang {
     right: 10px;
+    }
+
+    .visuel_offre_mobile {
+
+    }
+    .visuel_offre_mobile img {
+        width:100%;
+        display: block;
+        height: auto;
     }
 }
 
