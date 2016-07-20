@@ -7,17 +7,7 @@
             <h3></h3>
         </div>
         <div class="content animate-v-c">
-            <div class="col_3 animate-v">
-                <div class="box_col box_equipe">
-                    <div class="visuel">
-                        <img src="img/luc-sirois.jpg" class="queue-loading as-background">
-                    </div>
-                    <h4><?php echo L::equipe_1_nom; ?></h4>
-                    <h5><?php echo L::equipe_1_fonction; ?></h5>
-                    <p><?php echo L::equipe_1_content; ?></p>
-                </div>
-            </div>
-            <div class="col_3 animate-v">
+            <div class="col_2 animate-v">
                 <div class="box_col box_equipe">
                     <div class="visuel">
                         <img src="img/sebastien-letelie.jpg" class="queue-loading as-background">
@@ -27,7 +17,7 @@
                     <p><?php echo L::equipe_2_content; ?></p>
                 </div>
             </div>
-            <div class="col_3 animate-v">
+            <div class="col_2 animate-v">
                 <div class="box_col box_equipe">
                     <div class="visuel">
                         <img src="img/franck-ohrel.jpg" class="queue-loading as-background">
@@ -44,7 +34,17 @@
             <div class="clearfix"></div>
         </div>
         <div class="content animate-v-c">
-          <div class="col_3 animate-v">
+          <div class="col_2 animate-v">
+              <div class="box_col box_equipe">
+                  <div class="visuel">
+                      <img src="img/luc-sirois.jpg" class="queue-loading as-background">
+                  </div>
+                  <h4><?php echo L::equipe_1_nom; ?></h4>
+                  <h5><?php echo L::equipe_1_fonction; ?></h5>
+                  <p><?php echo L::equipe_1_content; ?></p>
+              </div>
+          </div>
+          <div class="col_2 animate-v">
               <div class="box_col box_equipe">
                   <div class="visuel">
                       <img src="img/jacques-marescaux.jpg" class="queue-loading as-background">
@@ -54,7 +54,9 @@
                   <p><?php echo L::equipe_6_content; ?></p>
               </div>
           </div>
-            <div class="col_3 animate-v">
+        </div>
+        <div class="content animate-v-c">
+            <div class="col_2 animate-v">
                 <div class="box_col box_equipe">
                     <div class="visuel">
                         <img src="img/frederic-grabli.jpg" class="queue-loading as-background">
@@ -64,7 +66,7 @@
                     <p><?php echo L::equipe_4_content; ?></p>
                 </div>
             </div>
-            <div class="col_3 animate-v">
+            <div class="col_2 animate-v">
                 <div class="box_col box_equipe">
                     <div class="visuel">
                         <img src="img/frederic-cambecedes.jpg" class="queue-loading as-background">
