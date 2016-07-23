@@ -22,7 +22,7 @@
                     <div class="visuel">
                         <img src="img/franck-ohrel.jpg" class="queue-loading as-background">
                     </div>
-                    <h4><?php echo L::equipe_3_nom; ?></h4>
+                    <h4><img src="img/vp.jpg" style="width: 160px;"></h4>
                     <h5><?php echo L::equipe_3_fonction; ?></h5>
                     <p><?php echo L::equipe_3_content; ?></p>
                 </div>
